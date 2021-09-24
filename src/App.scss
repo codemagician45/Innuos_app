@@ -1,0 +1,51 @@
+.App {
+  .home-page {
+    height: 100vh;
+    background-color: #2b2b2b;
+    padding: 50px;
+    .get_album {
+      height: 200px;
+      width: 350px;
+      .get_albums_btn {
+        font-family: "Oxygen", sans-serif;
+        padding: 2px 10px;
+        font-size: 18px;
+        border-radius: 5px;
+        border-color: #7e6e58;
+        background-color: #2b2b2b;
+        color: #b0b6bb;
+        width: 139px;
+        height: 35px;
+      }
+    }
+  }
+  .albums_page {
+    min-height: 100vh;
+    background-color: #2b2b2b;
+    padding: 50px;
+    .filter_part {
+      font-size: 18px;
+    }
+    .filter_selector {
+      padding: 10px;
+      border-radius: 7px;
+    }
+    .music_service_banner {
+      width: 25px;
+      position: absolute;
+      right: 5px;
+      bottom: 15px;
+    }
+    .album_text {
+      color: white;
+    }
+    .artist_text {
+      color: #535353;
+    }
+  }
+  .item_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
