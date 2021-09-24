@@ -71,7 +71,7 @@ function App(props) {
                     {album.source === "QOBUZ" && (
                       <img
                         className="music_service_banner"
-                        src="http://localhost:3000/assets/images/qobuz.png"
+                        src={`${process.env.REACT_APP_URL}/assets/images/qobuz.png`}
                         alt=""
                       />
                     )}
